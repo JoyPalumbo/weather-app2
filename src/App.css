@@ -1,0 +1,120 @@
+/* original plain pink background */
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #d225a7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #4dd1b7;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: rgb(251, 254, 253);
+  font-size: 25px;
+  color: #4dd1b7;
+  /* opacity: 0.5; */
+/* } */
+
+/* button {
+  background-color: rgb(250, 253, 250);
+  /* Green */
+border: none;
+color: rgb(6, 5, 5);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+/* } */
+
+/* #weather {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  font-size: 50px;
+  color: #4dd1b7;
+} */
+*/ .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  border-radius: 50%;
+}
+
+.App-header {
+  background-image: url("skybackground4.jpg");
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  height: 500px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+}
+
+
+
+.App-link {
+  color: #4dd1b7;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: rgb(251, 254, 253);
+  font-size: 25px;
+  color: #4dd1b7;
+  /* opacity: 0.5; */
+}
+
+button {
+  background-color: rgb(250, 253, 250);
+  /* Green */
+  border: none;
+  color: rgb(6, 5, 5);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#weather {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  font-size: 50px;
+  color: #4dd1b7;
+}
