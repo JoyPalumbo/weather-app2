@@ -36,7 +36,7 @@ class App extends React.Component {
   }
 
   getWeather = async (latitude, longitude) => {
-    const API = await fetch(`//api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=301a5f02ab435c9dcd29263f8ae55d3c&units=metric`);
+    const API = await fetch(`//api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=REACT_APP_WEATHER_API_KEY&units=metric`);
     const data = await API.json();
     this.setState({
       // lat and long may be data.coord.lat/lon
