@@ -4,6 +4,8 @@ import logo from './cuteCloud.jpg';
 // import logo from './logo.svg';
 import './App.css';
 
+// let APIkey = `{process.env.REACT_APP_WEATHER_API_KEY}`;
+
 // import { geolocated, geoPropTypes } from "react-geolocated";
 
 // var api = https://fcc-weather-api.glitch.me/
@@ -36,7 +38,7 @@ class App extends React.Component {
   }
 
   getWeather = async (latitude, longitude) => {
-    const API = await fetch(`//api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=REACT_APP_WEATHER_API_KEY&units=metric`);
+    const API = await fetch(`//api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric`);
     const data = await API.json();
     this.setState({
       // lat and long may be data.coord.lat/lon
