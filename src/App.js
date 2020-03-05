@@ -1,21 +1,6 @@
 import React from 'react';
-// import axios from 'axios';
 import logo from './cuteCloud.jpg';
-// import logo from './logo.svg';
 import './App.css';
-
-// let APIkey = `{process.env.REACT_APP_WEATHER_API_KEY}`;
-
-// import { geolocated, geoPropTypes } from "react-geolocated";
-
-// var api = https://fcc-weather-api.glitch.me/
-//bla
-//input box for location
-//api key/end point
-//access image from json file at weather[0].icon
-//convert city into lat and long
-
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -44,7 +29,6 @@ class App extends React.Component {
       // lat and long may be data.coord.lat/lon
       lat: latitude,
       lon: longitude,
-      //will need to change city, tempC, tempF data
       city: data.name,
       tempC: Math.round(data.main.temp),
       tempF: Math.round(data.main.temp * 1.8 + 32),
